@@ -399,9 +399,11 @@ object-fit: cover;
 border-radius: 50%;
 border: 5px solid crimson;
 transition: all 0.3s ease;
+background: crimson;
 }
 .teams .carousel .card:hover img{
 border-color: white;
+background: white;
 
 }
 .owl-dots{
@@ -464,6 +466,17 @@ text-align: justify;
     color:#333;
 
 }
+.contact .contact-content .row .info .sub-title a{
+    color:#333;
+    transition: all 0.3s ease;
+
+}
+.contact .contact-content .row .info .sub-title a:hover{
+    color:red;
+
+}
+
+
 .contact .right form .fields{
     display: flex;
 }
